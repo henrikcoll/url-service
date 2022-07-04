@@ -18,6 +18,4 @@ jobs:
         with:
           context: .
           push: true
-          tags:
-            - ghcr.io/henrikcoll/url-service:${{ github.sha }}
-            - ghcr.io/henrikcoll/url-service:latest
+          tags: ghcr.io/henrikcoll/url-service:${{ github.sha }},ghcr.io/henrikcoll/url-service:latest
